@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "hassty\scpmtfr\body_gray"
+    "$bumpmap" "hassty\scpmtfr\body_mp_western_milsim_usmc_raiders_1_1_lod1_n"
+    "$phongexponenttexture" "hassty\scpmtfr\body_mp_western_milsim_usmc_raiders_1_1_lod1_e"
+
+    "$color2" "[0.4 0.4 0.4]"                                     //do not touch this
+    "$nocull" "1"	//do not touch this
+
+    "$phong" "1"
+    "$phongboost" "0.3"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "10"                                //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "0.2"
+}
